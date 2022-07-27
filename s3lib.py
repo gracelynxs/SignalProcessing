@@ -9,7 +9,7 @@ import shutil
 import keyreader
 #aws globals
 
-KEY,SECRET = 'AKIAZAKMUZHFXNLGIPFJ', 'VbC9y5S2O8Jh059g3Hs1n52eo0N56TDWpwLfhI3s'
+KEY,SECRET = '',''
 
 #aws client creation using boto3
 client = boto3.client('s3',
