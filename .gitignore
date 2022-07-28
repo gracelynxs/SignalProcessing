@@ -2,4 +2,5 @@ env
 venv
 testing
 config
+config.yaml
 batch22.fast5
