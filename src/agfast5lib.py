@@ -15,6 +15,7 @@ def print_all_raw_data():
                 csv_writer.writerow(raw_data)
             #raw data is a numpy array...
             print(read.read_id, raw_data)
+    return 0
 
 #REQUIRES THAT THE FILE INPUT IS THE SAME AS THE PATH!
 def read_file(file):
@@ -27,6 +28,3 @@ def read_file(file):
                 csv_writer = csv.writer(outfile, delimiter = ',')
                 csv_writer.writerow(raw_data)
             print(read.read_id, raw_data)
-
-        
-print_all_raw_data()
