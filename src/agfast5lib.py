@@ -17,6 +17,11 @@ def print_all_raw_data():
             print(read.read_id, raw_data)
     return 0
 
+#Need to have a bundling function
+
+def read_2(file1, file2):
+    pass
+
 #REQUIRES THAT THE FILE INPUT IS THE SAME AS THE PATH!
 def read_file(file):
     path = str(file)
@@ -28,3 +33,7 @@ def read_file(file):
                 csv_writer = csv.writer(outfile, delimiter = ',')
                 csv_writer.writerow(raw_data)
             print(read.read_id, raw_data)
+
+#Built for reading a custom, bound file type. 
+def read_custom(file):
+    pass
