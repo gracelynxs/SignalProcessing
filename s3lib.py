@@ -9,7 +9,7 @@ import shutil
 import keyreader
 #aws globals
 
-[KEY,SECRET] = keyreader.get_keys('config.yaml', 'aws', ['api_key', 'secret_key'])
+KEY,SECRET = '',''
 
 #aws client creation using boto3
 client = boto3.client('s3',
